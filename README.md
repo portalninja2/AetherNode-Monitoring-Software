@@ -5,7 +5,6 @@ A modern, lightweight, and secure server monitoring solution designed for transp
 > [!NOTE]
 > This is a **one-man project** currently in **Beta**. Please note that updates are released spontaneously and infrequently.
 
-![Design Preview](https://via.placeholder.com/800x400?text=Arctic+Glass+Design+System)
 
 ## Features
 
