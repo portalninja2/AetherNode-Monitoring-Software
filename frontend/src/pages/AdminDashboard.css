@@ -1,0 +1,155 @@
+.admin-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--card-border);
+}
+
+.admin-header h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
+    font-weight: 800;
+}
+
+.header-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.2s;
+}
+
+.logout-btn,
+.password-btn,
+.settings-btn {
+    background: transparent;
+    border: 1px solid var(--card-border);
+    color: var(--text-color);
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.logout-btn:hover,
+.password-btn:hover,
+.settings-btn:hover {
+    background: var(--card-bg);
+    border-color: var(--primary-color);
+}
+
+.admin-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}
+
+.add-server-panel,
+.server-list-panel,
+.password-change-panel {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    padding: 2rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(12px);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.8;
+}
+
+input,
+select {
+    width: 100%;
+    background: rgba(15, 23, 42, 0.5);
+    border: 1px solid var(--card-border);
+    color: white;
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
+input:focus,
+select:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 10px var(--glow-color);
+}
+
+.add-btn,
+.save-btn {
+    width: 100%;
+    background: var(--primary-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.add-btn:hover,
+.save-btn:hover {
+    opacity: 0.9;
+    transform: scale(0.98);
+}
+
+.server-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid var(--card-border);
+}
+
+.server-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.server-ip {
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+.server-badge {
+    font-size: 0.7rem;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.delete-btn {
+    background: rgba(248, 113, 113, 0.1);
+    border: none;
+    color: var(--error);
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+.delete-btn:hover {
+    background: var(--error);
+    color: white;
+}

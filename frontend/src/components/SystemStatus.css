@@ -1,0 +1,39 @@
+.system-status-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 4rem;
+    border: 1px solid var(--card-border);
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.system-status-label {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    color: var(--text-color);
+}
+
+.status-online {
+    color: var(--success);
+    text-shadow: 0 0 10px rgba(52, 211, 153, 0.3);
+}
+
+.status-warning {
+    color: var(--warning);
+    text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);
+}
+
+.status-offline {
+    color: var(--error);
+    text-shadow: 0 0 10px rgba(248, 113, 113, 0.3);
+}
+
+.last-updated {
+    font-size: 0.7rem;
+    opacity: 0.4;
+    margin-left: 2rem;
+}

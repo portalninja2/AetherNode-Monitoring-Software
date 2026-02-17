@@ -1,0 +1,21 @@
+.dashboard-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem 5rem;
+    min-height: 100vh;
+}
+
+.servers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.no-data {
+    text-align: center;
+    padding: 5rem;
+    opacity: 0.5;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+}

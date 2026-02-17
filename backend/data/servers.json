@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2",
+    "name": "Beta Node",
+    "ip": "10.0.0.5",
+    "type": "Worker",
+    "isPublic": true,
+    "createdAt": "2023-10-27T10:05:00.000Z",
+    "specs": {
+      "cpu": "AMD Ryzen 9 5950X",
+      "storage": "2TB NVMe"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Gamma Gateway",
+    "ip": "172.16.0.1",
+    "type": "Load Balancer",
+    "isPublic": false,
+    "createdAt": "2023-10-27T10:10:00.000Z",
+    "specs": {
+      "cpu": "Intel Xeon Gold 6248R",
+      "storage": "500GB SSD"
+    }
+  }
+]
